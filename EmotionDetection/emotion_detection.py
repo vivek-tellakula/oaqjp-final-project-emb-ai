@@ -16,4 +16,4 @@ def emotion_detector(text_to_analyse): # Define a function named emotion_detecto
     
     dominant = max(result, key=result.get) # Determine dominant emotion (highest score)
     result["dominant_emotion"] = dominant
-    return result 
+    return result
